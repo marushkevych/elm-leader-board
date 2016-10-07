@@ -51,9 +51,9 @@ update msg model =
 view : Model -> Html Msg
 view model =
     div []
-        [ h3 [] [ text "Login Page" ]
+        [ h1 [] [ text "Login Page" ]
         , Html.form []
-            [ input [ placeholder "username", onInput UsernameInput ] []
+            [ input [ placeholder "username", onInput UsernameInput, value model.username ] []
             , input [ placeholder "password", type' "password", onInput PasswordInput ] []
             , input [ type' "submit" ] [ text "Login" ]
             ]

@@ -50,7 +50,7 @@ update msg model =
 view : Model -> Html Msg
 view model =
     div []
-        [ h3 [] [ text "Leaderboard page... So far" ]
+        [ h1 [] [ text "Leaderboard page... So far" ]
         , input
             [ type' "text"
             , onInput QueryInput
