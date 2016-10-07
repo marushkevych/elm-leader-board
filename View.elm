@@ -8,8 +8,8 @@ import Html.Events exposing (..)
 
 import Html.App as App
 import Model exposing (..)
-import Login
-import LeaderBoard
+import Login.Login as Login
+import LeaderBoard.View as LeaderBoard
 
 
 view : Model -> Html Msg

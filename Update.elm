@@ -2,8 +2,8 @@ module Update exposing (..)
 
 import Model exposing (..)
 import Router exposing (..)
-import Login
-import LeaderBoard
+import Login.Login as Login
+import LeaderBoard.Update as LeaderBoard
 
 
 -- update

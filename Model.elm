@@ -1,7 +1,7 @@
 module Model exposing (..)
 
-import Login
-import LeaderBoard
+import Login.Login as Login
+import LeaderBoard.Model as LeaderBoard
 
 
 -- model
